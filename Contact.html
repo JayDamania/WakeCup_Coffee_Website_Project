@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WakeCup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="wakecupstyle.css" />
+  </head>
+
+  <body>
+    <div class="page_container">
+      <div class="nav">
+        <nav>
+          <div class="logo">
+            <img src="logo.png" alt="Brand Logo" />
+            <div class="title">WakeCup</div>
+          </div>
+          <ul>
+            <li>
+              <a href="/Wakecup.html">Home</a>
+            </li>
+            <li>
+              <a href="/About.html">About Us</a>
+            </li>
+            <li>
+              <a href="/Coffeeblend.html">Coffee Blends</a>
+            </li>
+            <li>
+              <a href="/Brewingequipments.html">Brewing Equipment</a>
+            </li>
+            <li>
+              <a href="/Learnmore.html">Learn with us </a>
+            </li>
+            <li class="active">
+              <a href="/Contact.html">Contact </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="headlinecontact">
+        <h1 class="contacthead">Contact US</h1>
+        <div class="headlinecontactimg">
+          <img src="contact.jpg" alt="Headline Image" id="contactimg" />
+
+          <div class="contactbox" id="box">
+            <form action="/" method="post">
+              <h2>Contact Our Sales and Support Team</h2>
+              <input
+                type="text"
+                name="FullName"
+                id="Fullnamecontact"
+                placeholder="Full name"
+                required
+              />
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="emailcontact"
+                placeholder="Email"
+                required
+              />
+              <br />
+              <input
+                type="tel"
+                name="phone"
+                id="phonecontact"
+                placeholder="Phone number"
+                required
+              />
+              <br />
+
+              <textarea
+                name="comment"
+                id="messagecontact"
+                placeholder="Message"
+              ></textarea>
+              <br />
+              <button type="submit" class="buttoncontact">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>WakeCup</p>
+      <img src="insta.png" alt="Instagram Logo" href="#" />
+      <img src="fb.png" alt="Facebook Logo" href="#" />
+    </div>
+  </body>
+</html>
